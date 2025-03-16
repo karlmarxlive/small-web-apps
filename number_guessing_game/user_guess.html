@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/user_guess_styles.css">
+        <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=114499&format=png&color=000000">
         <title>Number Guessing Game</title>
-        <favicon type="image/x-icon" href="https://img.icons8.com/?size=100&id=114499&format=png&color=000000">
     </head>
     <body>
         <div id="root">
             <h1>Guessing Game</h1>
+            <p id="result"></p>
             <p>Guess a number between 1 and 100:</p>
             <input type="number" id="user-input" min="1" max="100">
             <button id="user-guess-button">Guess</button>
         </div>
+        <script src="scripts/user_guess_script.js"></script>
     </body>
 </html>

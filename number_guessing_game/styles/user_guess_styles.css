@@ -13,8 +13,8 @@ body {
     margin-top: 20vh;
     border-radius: 10px;
     text-align: center;
-    width: 60vw;
-    min-width: 300px;
+    width: 30vw;
+    min-width: 350px;
 }
 
 #root p {
@@ -39,4 +39,8 @@ button {
     cursor: pointer;
     color: white;
     background-color: blue;
+}
+
+#result {
+    display: none;
 }
